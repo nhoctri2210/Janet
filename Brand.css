@@ -1,0 +1,234 @@
+@charset "utf-8";
+.line {
+	background-color: #FBA9AA;
+	width: 80%;
+	height: 1px;
+}
+#khung4 {
+	width: 100%;
+	display: flex;
+	height: 100%;
+	justify-content: space-between;
+}
+.khungtrai {
+	width: 20%;
+	background-color: #F8FEE4;
+	left: 0px;
+	top: 0px;
+	position: fixed;
+	height: 100%;
+	padding-top: 40px;
+	letter-spacing: normal;
+}
+.ver-line {
+	height: 50px;
+	width: 1px;
+	background-color: #FB7336;
+	padding-top: 40px;
+}
+
+.khungtrai p {
+
+}
+.project {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #FB7336;
+	font-family: calibri;
+	font-weight: lighter;
+	font-size: 18px;
+}
+
+
+.khungphai {
+	width: 70%;
+	/* [disabled]background-color: #CD7071; */
+	margin-left: 20%;
+	flex-grow: 1;
+	margin-top: 40px;
+}
+.brand {
+	letter-spacing: 5px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.show {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.mockup {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	flex-grow: 1;
+}
+.mockup img {
+	margin-top: 30px;
+}
+
+
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 30px;
+	width: 100%;
+	/* [disabled]background-color: #FB3A3E; */
+}
+.logo {
+	margin-top: 40px;
+}
+
+.flex:first-child {
+	/* [disabled]background-color: #D11E21; */
+	flex: 30%;
+}
+.flex:nth-child(2) {
+	width: 60%;
+	margin-left: 25px;
+}
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+.footer {
+	width: 100%;
+	/* [disabled]background-color: #F8FEE4; */
+	margin-top: 40px;
+}
+
+.content {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	/* [disabled]background-color: #F8FEE4; */
+	flex-direction: column;
+	color: #003B58;
+	font-family: calibri;
+}
+.spread {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: #003B58;
+	color: #FFFFFF;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+.line {
+	background-color: #003B58;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1px;
+}
+.brand:first-child {
+	color: #FFFFFF;
+	font-size: 50px;
+	background-color: #FB7336;
+	text-align: center;
+}
+.back {
+	background-color: #003B58;
+	border-radius: 5px;
+	-webkit-box-shadow: 1px 1px 3px #9C9C9C;
+	padding: 5px;
+	box-shadow: 1px 1px 3px #9C9C9C;
+	margin-top: 24px;
+	width: 20%;
+}
+.back:hover a {
+	background-color: #F9BEA4;
+	
+}
+	
+.back:hover {
+	background-color: #F9BEA4;
+	transition: 0.5s;
+}
+.topnav {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-decoration: none;
+	margin-bottom: 70px;
+	text-shadow: 0px 0px;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 20px;
+	background-color: #F8FEE4;
+	top: 0px;
+}
+.topnav a:hover {
+	color: #FBB99B;
+}
+
+.topnav a {
+	text-decoration: none;
+	color: #FB7336;
+	font-family: calibri;
+	font-weight: bold;
+	letter-spacing: 3px;
+	background-color: #F8FEE4;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.whitekhung {
+	background-color: #FFFFFF;
+	margin-bottom: 30px;
+	position: fixed;
+	width: 100%;
+}
+
+
+
+
+@media screen and (min-width:400px){
+div .brand {
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+div .project {
+	font-size: 10px;
+}
+div .brand:first-child {
+	font-size: 20px;
+}
+
+
+
+}
+
+@media screen and (min-width:1000px){
+div .brand {
+	font-size: 20px;
+	letter-spacing: 5px;
+}
+div .brand:first-child {
+	font-size: 25px;
+}
+div .project {
+	font-size: 18px;
+}
+#khung4 .khungphai .whitekhung {
+}
+
+
+
+}

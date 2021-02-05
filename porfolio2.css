@@ -1,0 +1,448 @@
+@charset "utf-8";
+
+.divide{
+	border-width: 2px;
+	display: flex;
+	/* [disabled]background-color: #F8A3A4; */
+	padding-right: auto;
+	padding-left: 0px;
+	padding-bottom: auto;
+	margin: auto;
+	width: 80%;
+	padding-top: 0px;
+		
+	}	
+		.dropdown li{
+			display: block;
+			
+		}
+		.dropdown{
+			display: none;
+			top: 100%;
+			position: absolute;
+			left:0;
+			text-align: left;
+		}
+		.dropdown-menu:hover .dropdown{
+			display: block;
+			background-color: white;
+
+		}
+		.dropdown-menu{
+			position: relative;
+		}
+
+#menubar {
+	height: 150px;
+	background-color: #FFFFFF;
+	color: #003B58;
+	font-family: calibri;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25pt;
+	letter-spacing: 5px;
+	width: 100%;
+	border: 1px  #EF4649;
+	padding-right: auto;
+	padding-left: auto;
+	padding-bottom: auto;
+	position: fixed;
+	top: auto;
+	-webkit-box-shadow: 5px 5px 60px #DBDBDB;
+	box-shadow: 5px 5px 60px #DBDBDB;
+	margin: 0px;
+	padding-top: 20px;
+}
+.footer {
+	width: 100%;
+	background-color: #F8FEE4;
+	margin-top: 40px;
+	margin-bottom: auto;
+	padding-bottom: 47px;
+}
+
+
+li {
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	padding: 15px;
+	display: inline;
+	text-decoration: none;
+}
+
+*{box-sizing: border-box;}
+#menubar .linhvu {
+	/* [disabled]background-color: #51E148; */
+	width: 40%;
+	padding: auto;
+	display: inline-block;
+	height: 214px;
+}
+#menubar .menu {
+	float: right;
+	width: 60%;
+	/* [disabled]background-color: #7FD9D2; */
+	text-align: right;
+}
+ul li a {
+	text-decoration: none;
+	color: #003B58;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+ul li a:hover {
+	color: #F8FEE4;
+}
+
+.clear:after {
+	display: table;
+	clear: both;
+	content: "";
+}
+
+
+.icon {
+	margin-top: 800px;
+	right: 0px;
+	width: 50%;
+}
+.icon2 {
+	margin-top: 990px;
+}
+ul li a {
+}
+.scroll {
+	width: 20%;
+
+
+}
+.illust   {
+	margin-top: 289px;
+
+}
+#wrap {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+#khung3 {
+	width: 100%;
+	background-color: #F8FEE4;
+	height: auto;
+}
+#wrap3 {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.collum {
+	width: 20%;
+	/* [disabled]background-color: #F76A6C; */
+}
+.collum2 {
+	width: 50%;
+	flex-grow: 1;
+	/* [disabled]background-color: #285FA2; */
+}
+.collum3 {
+	/* [disabled]background-color: #6B7631; */
+	width: 20%;
+}
+main {
+	background-color: #F8FEE4;
+}
+.resize-icon {
+
+}
+#khung {
+	width: 100%px;
+	margin-top: 40px;
+	padding-top: 44px;
+}
+.text  {
+	width: 80%;
+	/* [disabled]background-color: #F15F61; */
+	flex-grow: 1;
+	flex: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.khungnho {
+	width: 80%;
+	flex-wrap: wrap;
+	padding-left: auto;
+	padding-right: auto;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 96px;
+	margin-top: 74px;
+}
+.gif {
+	/* [disabled]background-color: #ADD5FB; */
+	width: 40%;
+	flex-direction: column;
+}
+.textsize {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 159px;
+}
+.circle {
+	width: 100%;
+	height: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 57px;
+	padding-left: 296px;
+	max-width: 100%;
+}
+.circle img {
+	max-width: 100%;
+	height: auto;
+}
+
+.circle1 {
+	width: 100%;
+	height: 70%;
+	/* [disabled]background-color: #65C597; */
+	padding-left: 227px;
+	padding-top: 293px;
+	max-width: 100%;
+}
+
+.drop{display: none;}
+.menu ul #mymenu {
+}
+.link a {
+	background-color: #FFFFFF;
+}
+.khung2 {
+	width: 100%;
+	margin-top: 57px;
+}
+.khungnho2 {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.cot {
+	flex: 50%;
+	flex-grow: 1;
+	justify-content: space-around;
+	margin: 10px;
+}
+.hinh-anh img {
+	max-width: 100%;
+	height: auto;
+	padding-left: auto;
+	padding-right: auto;
+	display: block;
+}
+
+.cot:last-child {
+	background-color: #F9BEA4;
+}
+.cot:nth-child(2) {
+	background-color: #F9BEA4;
+}
+.cot:nth-child(3) {
+	background-color: #F9BEA4;
+}
+
+
+
+.cot:first-child {
+	background-color: #F9BEA4;
+}
+.cot:first-child:hover {
+	background-color: #003B58;
+}
+.cot:nth-child(2):hover {
+	background-color: #003B58;
+}
+.cot:nth-child(3):hover {
+	background-color: #003B58;
+}
+.cot:last-child:hover {
+	background-color: #003B58;
+}
+
+
+
+
+.cot img {
+	padding-left: auto;
+	padding-right: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.hinh-anh {
+	/* [disabled]background-color: #E9595C; */
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	padding-left: auto;
+	padding-right: auto;
+	left: auto;
+	right: auto;
+	justify-content: center;
+}
+.hinh-anh:nth-child(3) {
+	width: 100%;
+}
+	
+.content {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: #F8FEE4;
+	flex-direction: column;
+	color: #003B58;
+	font-family: calibri;
+}
+.spread {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: #003B58;
+	color: #FFFFFF;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+.cot:hover .overlay  {
+	background-color: #003B58;
+	opacity: 1;
+}
+.line {
+	background-color: #003B58;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1px;
+}
+
+
+
+
+@media screen and (min-width:600px){
+.resize-text p {
+	font-size: 52px;
+	width: 50%;
+}
+	
+	.illust.resize img {
+	height: auto;
+	max-width: 100%;
+	
+
+}
+	.collum{display: none;}
+
+.collum2 {
+	flex: 100%;
+
+}
+.p1 p {
+	font-size: 49px;
+}
+.text {
+	width: 100%;
+}
+.textsize img {
+	max-width: 100%;
+	height: auto;
+
+}
+.textsize {
+	padding: opx;
+	width: 100%;
+}
+.gif {
+	display: none;
+}
+.cot {
+	flex: 100%;
+}
+}
+
+
+
+@media screen and (min-width:1000px){
+ .collum2 {flex: 50%; flex-grow: 1;}
+ .illust img {max-width: 100%; height: auto;}
+ .resize-icon img {max-width: 100%; height: auto;}
+	.collum{display: block;}
+.text {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.textsize {
+	flex: 50%;
+}
+.textsize img {
+	max-width: 100%;
+	height: auto;
+}
+.gif {
+	display: block;
+}
+.link {
+	float: right;
+	display: block;
+}
+.cot {
+	display: block;
+	flex: 45%;
+}
+
+
+
+
+
+
+}
+
+	
+
+@media screen and (min-width:600px) and (max-width:800px){
+.drop {
+	display: block;
+	float: right;
+	position: absolute;
+	top: auto;
+	right: 100px;
+	bottom: auto;
+}
+.link {
+	display: none;
+}
+.menu.responsive {position: relative;}
+  .menu.responsive a.icon {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+  }
+  .menu.responsive a {
+    float: left;
+    display: block;
+    text-align: left;
+  }
+.cot {
+	flex: 100%;
+}
+
+}

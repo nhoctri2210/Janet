@@ -1,0 +1,83 @@
+@charset "utf-8";
+#container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F58F91;
+}
+h2 {
+}
+.flow {
+	display: flex;
+	flex-wrap: wrap;
+}
+.item {
+	flex: 100%;
+	max-width: 100%;
+	background-color: #AC4042;
+	flex-grow: 1;
+	margin: 15px;
+	padding: 20px;
+	border: 1px solid #FFFFFF;
+	-webkit-flex-grow: 1;
+	-ms-flex-grow: 1;
+}
+.hinh-anh {
+	max-width: 50%;
+	height: auto;
+	display: block;
+}
+
+
+
+
+
+
+@media screen and (min-width:700px){
+.item {
+	display: flex;
+	flex: 40%;
+	max-width: 100%;
+	height: auto;
+	background-color: #A6DCD4;
+}
+
+}
+
+@media screen and (min-width:1000px){
+.item {
+	max-width: 100%;
+	flex: 25%;
+}
+
+}
+
+
+
+
+
+@media screen and (min-width:1000px){
+.resize-text p {
+	font-size: 101pt;
+}
+.cot3 {
+	flex: 25%;
+}
+.illust.resize img {
+	max-width: 100%;
+	height: auto;
+}
+.resize-icon img {
+	flex: 25%;
+	width: 100%;
+}
+
+
+
+
+
+
+}
+
+<p style="font-size: 127px; font-family: cambria; color:#003B58;">About me</p>
+      <p style="text-indent: 60px; font-size:60px; font-family: cambira; color:#FB7336; font-style: italic;">    Hi! I'm Linh. I'm currently a design student based in HCM city, who is looking for an internship; and this is a selection of my works. </p>
